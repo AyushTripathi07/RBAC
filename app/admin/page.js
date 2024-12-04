@@ -39,6 +39,7 @@ export default function AdminDashboard() {
 
   // Fetch users and roles
   useEffect(() => {
+    
     async function fetchData() {
       try {
         const usersResponse = await fetch('/api/users'); // Updated to match new structure
@@ -62,7 +63,7 @@ export default function AdminDashboard() {
       }
     }
     fetchData();
-  }, []);
+  }, [toast]);
 
   // Handle role update
   async function handleRoleUpdate(event) {
