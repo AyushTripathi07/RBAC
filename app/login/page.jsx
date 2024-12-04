@@ -89,7 +89,7 @@ export default function LoginPage() {
         </CardContent>
         <CardFooter className="flex justify-between">
           <p className="text-sm text-muted-foreground">
-            Don't have an account? <a href="/signup" className="text-blue-600">Sign up</a>
+            Don&#39;t have an account? <a href="/signup" className="text-blue-600">Sign up</a>
           </p>
         </CardFooter>
       </Card>
