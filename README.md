@@ -119,7 +119,27 @@ Frontend
 	•	Displays user-specific content.
 	3.	Logout:
 	•	Clears the session and redirects to the login page.
+# Database Schema and Seed Data
 
+## User and Role Schema
+
+![User and Role Schema](assets/images/schema.png)
+
+## Permissions Table
+
+![Permissions Table](assets/images/permissions.png)
+
+## Roles Table
+
+![Roles Table](assets/images/roles.png)
+
+## Seeded Users
+
+![Seeded Users](assets/images/users.png)
+
+## Permissions to Role Mapping
+
+![Permissions to Role Mapping](assets/images/permissions_to_roles.png)
 Future Improvements
 
 	1.	Add support for OAuth-based authentication.
