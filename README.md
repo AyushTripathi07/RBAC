@@ -51,8 +51,8 @@ This project demonstrates a robust implementation of Authentication, Authorizati
 1. **Clone the repository:**
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/AyushTripathi07/rbac.git
+cd rbac
 ```
 2.	Install dependencies:
 
